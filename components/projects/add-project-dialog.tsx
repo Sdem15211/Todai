@@ -57,7 +57,7 @@ function AddProjectDialogContent() {
           <Form {...form}>
             <form
               onSubmit={form.handleSubmit(onSubmit)}
-              className="space-y-2 border-2 p-6 border-gray-200 my-2 rounded-sm border-foreground/20"
+              className="space-y-4 border-2 p-6 border-gray-200 my-2 rounded-sm border-foreground/20"
             >
               <FormField
                 control={form.control}

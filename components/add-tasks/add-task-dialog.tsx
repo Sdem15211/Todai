@@ -120,20 +120,18 @@ export default function AddTaskDialog({ data }: { data: Doc<"todos"> }) {
         </DialogDescription>
       </DialogHeader>
       <div className="flex flex-col gap-2 bg-gray-100 lg:w-1/2">
-        {toDoDetails.map(
-          (
-            { labelName, value, icon }: any,
-            idx: React.Key | null | undefined
-          ) => (
-            <div key={idx} className="grid gap-2 p-4 border-b-2 w-full">
-              <Label className="flex items-start">{labelName}</Label>
-              <div className="flex text-left items-center justify-start gap-2 pb-2">
-                {icon}
-                <p className="text-sm">{value}</p>
-              </div>
+        {toDoDetails.map(({ labelName, value, icon }: any, idx: any) => (
+          <div
+            key={`${value}-${idx}`}
+            className="grid gap-2 p-4 border-b-2 w-full"
+          >
+            <Label className="flex items-start">{labelName}</Label>
+            <div className="flex text-left items-center justify-start gap-2 pb-2">
+              {icon}
+              <p className="text-sm">{value}</p>
             </div>
-          )
-        )}
+          </div>
+        ))}
         <div className="flex gap-2 p-4 w-full justify-end">
           <form onSubmit={(e) => handleDeleteTodo(e)}>
             <button type="submit">

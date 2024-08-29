@@ -75,11 +75,9 @@ export default function AddTaskInline({
   const projects = useQuery(api.projects.getProjects) ?? [];
   const labels = useQuery(api.labels.getLabels) ?? [];
 
-  const createASubTodoEmbeddings = useAction(
-    api.subTodos.createSubTodoAndEmbeddings
-  );
+  const createASubTodoEmbeddings = useMutation(api.subTodos.createASubTodo);
 
-  const createTodoEmbeddings = useAction(api.todos.createTodoAndEmbeddings);
+  const createTodoEmbeddings = useMutation(api.todos.createATodo);
 
   const defaultValues = {
     taskName: "",

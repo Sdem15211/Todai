@@ -36,7 +36,7 @@ export default function DeleteProject({
 
       if (deleteTaskId !== undefined) {
         toast({
-          title: "🗑️ Successfully created a project",
+          title: "🗑️ Successfully deleted a project",
           duration: 3000,
         });
         router.push(`/loggedin/projects`);

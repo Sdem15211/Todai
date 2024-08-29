@@ -5,7 +5,7 @@ import { action } from "./_generated/server";
 import OpenAI from "openai";
 import { Id } from "./_generated/dataModel";
 
-const apiKey = process.env.OPEN_AI_KEY;
+const apiKey = process.env.OPENAI_API_KEY;
 const openai = new OpenAI({ apiKey });
 
 export const suggestMissingItemsWithAi = action({

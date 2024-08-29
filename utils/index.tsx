@@ -24,4 +24,4 @@ export const primaryNavItems = [
   },
 ];
 
-export const GET_STARTED_PROJECT_ID = " ks725scwxhcphn7pk55wwpr90n6zarrx";
+export const GET_STARTED_PROJECT_ID = "ks774jrfb3frcmy3ys2m8vrmq96zs46j";
