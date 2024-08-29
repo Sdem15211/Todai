@@ -30,6 +30,7 @@ export default function Todos({
   };
   return items.map((task: Doc<"todos">, idx) => (
     <Task
+      key={task._id}
       handleOnChange={() => handleOnChangeTodo(task)}
       data={task}
       isCompleted={task.isCompleted}
