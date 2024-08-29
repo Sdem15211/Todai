@@ -139,7 +139,6 @@ export default function AddTaskInline({
 
   return (
     <div>
-      {/* {JSON.stringify(form.getValues(), null, 2)} */}
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
@@ -170,7 +169,7 @@ export default function AddTaskInline({
               <FormItem>
                 <FormControl>
                   <div className="flex items-start gap-2">
-                    <Text className="size-4 ml-auto opacity-50" />
+                    <Text className="size-4 ml-auto mt-2 opacity-50" />
                     <Textarea
                       id="description"
                       placeholder="Description"
