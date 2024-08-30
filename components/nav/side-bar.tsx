@@ -37,7 +37,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import UserProfile from "./UserProfile";
+import UserProfile from "./user-profile";
 import { primaryNavItems } from "@/utils";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";

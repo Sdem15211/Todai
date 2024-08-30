@@ -30,7 +30,7 @@ import {
 } from "../ui/card";
 import { Input } from "../ui/input";
 import { primaryNavItems } from "@/utils";
-import UserProfile from "./UserProfile";
+import UserProfile from "./user-profile";
 import SearchForm from "./search-form";
 import Image from "next/image";
 import AddProjectDialog from "../projects/add-project-dialog";

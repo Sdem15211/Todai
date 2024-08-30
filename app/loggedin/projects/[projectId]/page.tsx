@@ -5,7 +5,7 @@ import MobileNav from "@/components/nav/moblie-nav";
 import SideBar from "@/components/nav/side-bar";
 import DeleteProject from "@/components/projects/delete-project";
 import Todos from "@/components/todos/todos";
-import CompletedTodos from "@/components/todos/totalTodos";
+import CompletedTodos from "@/components/todos/total-todos";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 import { useQuery } from "convex/react";

@@ -13,7 +13,7 @@ import { Calendar, ChevronDown, Flag, Hash, Tag, Trash2 } from "lucide-react";
 import { format } from "date-fns";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
-import Task from "../todos/Task";
+import Task from "../todos/task";
 import { AddTaskWrapper } from "./add-task-button";
 import SuggestMissingTasks from "./suggest-tasks";
 import { useToast } from "../ui/use-toast";

@@ -3,7 +3,7 @@ import { api } from "@/convex/_generated/api";
 import { useQuery } from "convex/react";
 import { Checkbox } from "../ui/checkbox";
 import Todos from "./todos";
-import CompletedTodos from "./totalTodos";
+import CompletedTodos from "./total-todos";
 import { AddTaskWrapper } from "../add-tasks/add-task-button";
 
 export default function TodoList() {

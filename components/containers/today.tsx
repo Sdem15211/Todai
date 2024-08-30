@@ -3,7 +3,7 @@ import { api } from "@/convex/_generated/api";
 import { useQuery } from "convex/react";
 import { AddTaskWrapper } from "../add-tasks/add-task-button";
 import Todos from "../todos/todos";
-import CompletedTodos from "../todos/totalTodos";
+import CompletedTodos from "../todos/total-todos";
 import { Dot } from "lucide-react";
 import moment from "moment";
 
